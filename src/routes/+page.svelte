@@ -121,7 +121,7 @@
 	<!-- Content Sections -->
 	<section class="relative z-30 bg-gray-900 text-white">
 		<div class="max-w-4xl mx-auto px-8 py-20">
-			<div class = "flex items-center bg-gray-700 p-2 rounded-full">
+			<div class = "m-5 flex items-center bg-gray-700 p-2 rounded-full">
 				<div class = "bg-gray-700 w-12 h-12 rounded-full flex justify-center items-center">
 					<div class = "profile-image bg-center bg-cover w-10 h-10 rounded-full"></div>
 				</div>
