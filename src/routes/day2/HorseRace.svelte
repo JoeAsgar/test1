@@ -8,6 +8,7 @@
 			position: 0,
 			color: 'bg-yellow-400',
 			animation: 'bounce'
+			test
 		},
 		{
 			emote: '🏇',
