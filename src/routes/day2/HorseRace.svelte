@@ -6,7 +6,7 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-Yellow-400',
+			color: 'bg-yellow-400',
 			animation: 'bounce'
 		},
 		{
