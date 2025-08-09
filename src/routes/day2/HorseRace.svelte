@@ -24,7 +24,7 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-blue-200',
+			color: 'bg-blue-400',
 			animation: 'bounce'
 		},
 		{
@@ -37,6 +37,24 @@
 			emote: '🏇',
 			position: 0,
 			color: 'bg-red-600',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-blue-100',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-black',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-green-700',
 			animation: 'bounce'
 		}
 	]);
