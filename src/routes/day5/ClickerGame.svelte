@@ -49,20 +49,21 @@
 
 <!-- conatiner -->
 <div class = "text-red-600 h-screen bg-gray-200 flex flex-col justify-center items-center">
-    <div>{points}</div>
+    <div class = "text-3xl font-bold text-green-800">You have:</div>
+    <div class = "h-18 text-green-400 text-2xl">${points}</div>
     <!-- svelte-ignore a11y_consider_explicit_label -->
     <button onclick = {increment} class = "active:scale-110 transition-all rounded-full duration-250 h-48 w-48 bg-purple-900"></button>
 
 
 
     <!-- Options -->
-    <div class = "border w-full text-center flex flex-row ">
+    <div class = "m-6 border w-full text-center flex flex-row ">
         <div class = "w-1/2 flex flex-col">
             <div>Click Upgrades</div>
                 <div> 
-                    <Button text = "+1 -{1*upgradeClickCost}" fn = {() => upgradeClickingPower(1)}/>
-                    <Button text = "+5 -{5*upgradeClickCost}" fn = {() => upgradeClickingPower(5)}/>
-                    <Button text = "+10 -{10*upgradeClickCost}" fn = {() => upgradeClickingPower(10)}/>
+                    <Button text = "+1 -${1*upgradeClickCost}" fn = {() => upgradeClickingPower(1)}/>
+                    <Button text = "+5 -${5*upgradeClickCost}" fn = {() => upgradeClickingPower(5)}/>
+                    <Button text = "+10 -${10*upgradeClickCost}" fn = {() => upgradeClickingPower(10)}/>
                     
                 </div>
                 
@@ -70,9 +71,9 @@
         <div class = "w-1/2 flex flex-col">
             <div>Passive Upgrades</div>
             <div>
-                <Button text ="+1 -{0.5*upgradePassiveCost} " fn = {() => upgradePassiveIncomme(1)}/>
-                <Button text ="+5 - {1*upgradePassiveCost} " fn = {() => upgradePassiveIncomme(5)}/>
-                <Button text ="+10 - {2.5*upgradePassiveCost} " fn = {() => upgradePassiveIncomme(10)}/>
+                <Button text ="+1 -${0.5*upgradePassiveCost} " fn = {() => upgradePassiveIncomme(1)}/>
+                <Button text ="+5 -${1*upgradePassiveCost} " fn = {() => upgradePassiveIncomme(5)}/>
+                <Button text ="+10 -${2.5*upgradePassiveCost} " fn = {() => upgradePassiveIncomme(10)}/>
                 
                 
             </div>
