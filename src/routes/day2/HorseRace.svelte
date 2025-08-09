@@ -18,7 +18,19 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-blue-400',
+			color: 'bg-blue-800',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-blue-500',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-orange-400',
 			animation: 'bounce'
 		}
 	]);
