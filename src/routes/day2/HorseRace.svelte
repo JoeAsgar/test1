@@ -8,7 +8,7 @@
 			position: 0,
 			color: 'bg-yellow-400',
 			animation: 'bounce'
-			test
+			
 		},
 		{
 			emote: '🏇',
@@ -43,7 +43,7 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-blue-100',
+			color: 'bg-blue-200',
 			animation: 'bounce'
 		},
 		{
@@ -57,7 +57,19 @@
 			position: 0,
 			color: 'bg-green-700',
 			animation: 'bounce'
-		}
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-red-800',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-green-500',
+			animation: 'bounce'
+		},
 	]);
 
 	function progress() {
