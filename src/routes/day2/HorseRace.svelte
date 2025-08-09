@@ -6,19 +6,7 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-red-400',
-			animation: 'bounce'
-		},
-		{
-			emote: '🏇',
-			position: 0,
-			color: 'bg-yellow-400',
-			animation: 'bounce'
-		},
-		{
-			emote: '🏇',
-			position: 0,
-			color: 'bg-blue-800',
+			color: 'bg-Yellow-400',
 			animation: 'bounce'
 		},
 		{
@@ -30,7 +18,25 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-orange-400',
+			color: 'bg-blue-800',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-blue-200',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-orange-500',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-red-600',
 			animation: 'bounce'
 		}
 	]);
