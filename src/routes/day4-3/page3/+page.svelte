@@ -3,7 +3,7 @@
     <div class = "flex justify-center text-7xl">You Died!</div>
     <div class = "flex justify-center text-9xl">☠️</div>
 
-	<a class="left-180 bottom-3 text-3xl font-extrabold bg-orange-700 flex center p-2 text-red-300 absolute" href="/day4-3">Reset</a>
+	<a class="left-180 bottom-3 text-3xl font-extrabold bg-orange-700 flex center p-2 text-red-300 absolute" href="/">Reset</a>
     
 </div>
 

@@ -18,7 +18,7 @@
 
 <div class="relative overflow-hidden">
 	<!-- Hero Section with Parallax Cityscape -->
-	<section class="relative h-screen flex items-center justify-center bg-gradient-to-b from-blue-300 via-blue-400 to-white">
+	<section class="relative h-screen flex items-center justify-center bg-gradient-to-b from-black via-gray-700 to-yellow-600">
 		
 		<!-- Stars Background (slowest) -->
 		<div 
