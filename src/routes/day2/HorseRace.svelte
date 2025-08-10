@@ -6,7 +6,7 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-yellow-400',
+			color: 'bg-yellow-300',
 			animation: 'bounce'
 			
 		},
@@ -37,7 +37,7 @@
 		{
 			emote: '🏇',
 			position: 0,
-			color: 'bg-red-600',
+			color: 'bg-red-500',
 			animation: 'bounce'
 		},
 		{
@@ -56,6 +56,48 @@
 			emote: '🏇',
 			position: 0,
 			color: 'bg-green-700',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-green-500',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-white',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-yellow-500',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-red-800',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-pink-300',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-gradient-to-b from-blue-300 via-orange-400 to-yellow-300',
+			animation: 'bounce'
+		},
+		{
+			emote: '🏇',
+			position: 0,
+			color: 'bg-lime-500',
 			animation: 'bounce'
 		}
 	]);
@@ -88,11 +130,11 @@
 	}
 </script>
 
-<div style="height:600px;" class="bg-green-400">
+<div style="height:800px;" class="bg-green-400">
 	<div class="py-5 text-center text-2xl font-bold">HORSE RACING GAME</div>
 	<Button text={'Progress'} fn={progress} />
 	<Button text={'Reset'} fn={reset} />
-	<div class="space-y-2 py-10 pr-10">
+	<div class="py-10 pr-10">
 		{#each horses as horse}
 			<Horse
 				emote={horse.emote}
